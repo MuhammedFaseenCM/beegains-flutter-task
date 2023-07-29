@@ -1,5 +1,4 @@
 import 'package:beegains/controller/login_provider.dart';
-import 'package:beegains/view/enquirylist_screen.dart';
 import 'package:beegains/view/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -26,10 +25,7 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           routes: {
-          
           '/login': (context) => const LoginScreen(),
-          
-          
         },
           home: const LoginScreen(),
       )
